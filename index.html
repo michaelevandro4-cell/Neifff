@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anderson Neiff - Influencer & Criador</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+    nav {
+      background-color: #111;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav h1 {
+      margin: 0;
+      font-size: 1.5em;
+      color: #ffcc00;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      color: #ffcc00;
+    }
+    section {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 30px;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+    h2 {
+      color: #ffcc00;
+      border-bottom: 1px solid #ffcc00;
+      padding-bottom: 10px;
+    }
+    a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .feedback-form input,
+    .feedback-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 6px;
+      background-color: #333;
+      color: #fff;
+    }
+    .feedback-form button {
+      background-color: #ffcc00;
+      color: #000;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .feedback-form button:hover {
+      background-color: #ffe066;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h1>Neiff</h1>
+    <ul>
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#redes">Redes Sociais</a></li>
+    </ul>
+  </nav>
+
+  <section id="inicio">
+    <h2>Início</h2>
+    <p>Bem-vindo ao site oficial de <strong>Anderson Neiff</strong>, um dos maiores influenciadores da cena digital brasileira. Criador do reality <em>N1 Influencers</em>, cantor de brega funk e referência em conteúdo viral, Neiff mistura entretenimento, música e impacto social em tudo que faz.</p>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Neiff</h2>
+    <p>Anderson Neiff começou sua trajetória como cantor e rapidamente conquistou espaço nas redes sociais com vídeos autênticos e dinâmicas ousadas. Seu projeto mais conhecido, o <strong>N1 Influencers</strong>, é um reality show transmitido online que reúne influenciadores em provas, festas e desafios intensos.</p>
+    <p>Com milhares de seguidores e milhões de visualizações, Neiff se destaca por sua capacidade de engajar o público e criar experiências únicas. Ele já contou com participações de nomes como Zago, MC Thammy, Elisa Sanches e muitos outros.</p>
+  </section>
+
+  <section id="redes">
+    <h2>Redes Sociais</h2>
+    <ul>
+      <li><a href="https://www.tiktok.com/@soufadeneiff" target="_blank">TikTok: @soufadeneiff</a></li>
+      <li><a href="https://www.youtube.com/@Neiffstorys07" target="_blank">YouTube: Neiff Storys</a></li>
+      <li>Instagram: @andersonneiff</li>
+    </ul>
+
+    <h3 style="margin-top:40px;">Envie seu Feedback</h3>
+    <form class="feedback-form" action="mailto:michaelevandro4@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="nome" placeholder="Seu nome" required />
+      <input type="email" name="email" placeholder="Seu e-mail" required />
+      <textarea name="mensagem" rows="5" placeholder="Sua mensagem sobre Neiff ou o site" required></textarea>
+      <button type="submit">Enviar Feedback</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Site dedicado ao influencer Anderson Neiff. Criado com tecnologia e admiração.
+  </footer>
+
+</body>
+</html>
